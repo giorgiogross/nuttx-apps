@@ -1,0 +1,6 @@
+config EXAMPLES_BMI055_EXAMPLE
+	bool "Bmi055 accel and gyro sensor example"
+	default n
+
+if EXAMPLES_BMI055_EXAMPLE
+endif # EXAMPLES_BMI055_EXAMPLE
